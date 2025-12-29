@@ -1,2 +1,0 @@
-﻿NO,SMILES,y_true,,student_hl10_wr0.7_0.3_gh64_seed42,student_hl20_wr0.7_0.3_gh64_seed0,student_hl10_wr0.7_0.3_gh64_seed100,student_hl20_wr0.7_0.3_gh256_seed2025,Chem-KD_avg.,,gcn_best_seed(0)_128_128_0.1,gcn_best_seed(42)_128_128_0.1,gcn_best_seed(100)_128_128_0.1,gcn_best_seed(2025)_128_128_0.1,,base_avg.
-1,*N1C(=O)c2ccc(/N=N/c3ccc4c(c3)C(=O)N(c3ccc5[nH]c(-c6ccc(*)cc6)nc5c3)C4=O)cc2C1=O,410,,377.21368,387.92108,375.2193,384.00964,381.090925,,372.78815,354.2059,378.66754,355.41077,365.26809,365.26809
