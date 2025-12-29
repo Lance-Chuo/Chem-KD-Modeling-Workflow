@@ -1,0 +1,5 @@
+max_atoms=60
+use_edge_features=True
+use_global_features=True
+num_samples=20
+extra_feature=freq (standardized)
