@@ -47,7 +47,7 @@ Predict Tg or DC properties from input p-SMILES-derived graph features
 Export prediction results
 
 
-## Chem-KD_DC(+freq)
+### [Chem-KD_DC(+freq)](./Chem-KD_DC(+freq))
 Chem-KD_DC(+freq) has the same folder structure as Chem-KD_Tg.
 
 Additional functionality:
@@ -57,7 +57,7 @@ Used to represent dielectric constant measurement frequency
 Designed for dielectric constant (DC) prediction tasks
 
 
-## Prediction of Literature Data and Experimental Data
+### [Prediction of Literature Data and Experimental Data](./Prediction of Literature Data and Experimental Data)
 
 This folder contains:
 
