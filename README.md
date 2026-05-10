@@ -57,7 +57,7 @@ Used to represent dielectric constant measurement frequency
 Designed for dielectric constant (DC) prediction tasks
 
 
-### [Prediction of Literature Data and Experimental Data](./prediction of literature data and experimental data/experiment)
+### [Prediction of Literature Data and Experimental Data](./prediction of literature data and experimental data)
 
 This folder contains:
 
