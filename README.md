@@ -77,20 +77,20 @@ Typical workflow:
 These packages must be available to use Chem-KD:
 
 ```python
-python=3.9.23=h716150d_0
-deepchem=2.8.0=pypi_0
-rdkit=2024.3.5=pypi_0
-torch=2.3.1+cu118=pypi_0
-torch-geometric=2.6.1=pypi_0
-torch-scatter=2.1.2+pt23cu118=pypi_0
-torch-sparse=0.6.18+pt23cu118=pypi_0
-torch-cluster=1.6.3+pt23cu118=pypi_0
-torch-spline-conv=1.2.2+pt23cu118=pypi_0
-numpy=1.26.3=pypi_0
-pandas=2.3.3=pypi_0
-scikit-learn=1.6.1=pypi_0
-scipy=1.13.1=pypi_0
-matplotlib=3.9.4=pypi_0
-joblib=1.5.2=pypi_0
-tqdm=4.67.1=pypi_0
+ - python=3.9.23=h716150d_0
+ - deepchem=2.8.0=pypi_0
+ - rdkit=2024.3.5=pypi_0
+ - torch=2.3.1+cu118=pypi_0
+ - torch-geometric=2.6.1=pypi_0
+ - torch-scatter=2.1.2+pt23cu118=pypi_0
+ - torch-sparse=0.6.18+pt23cu118=pypi_0
+ - torch-cluster=1.6.3+pt23cu118=pypi_0
+ - torch-spline-conv=1.2.2+pt23cu118=pypi_0
+ - numpy=1.26.3=pypi_0
+ - pandas=2.3.3=pypi_0
+ - scikit-learn=1.6.1=pypi_0
+ - scipy=1.13.1=pypi_0
+ - matplotlib=3.9.4=pypi_0
+ - joblib=1.5.2=pypi_0
+ - tqdm=4.67.1=pypi_0
 ```
