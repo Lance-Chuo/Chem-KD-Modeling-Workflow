@@ -5,7 +5,7 @@ Chem-KD is a multi-view knowledge distillation framework designed for molecular 
 The framework integrates graph neural networks, soft-label distillation, and multi-teacher learning strategies to improve prediction performance for polymer-related properties such as glass transition temperature (Tg) and dielectric constant (DC).
 
 ## Repository Structure
-### [`Chem-KD_Tg`](./Chem-KD_Tg)
+### [Chem-KD_Tg](./Chem-KD_Tg)
 
 Main project folder containing all datasets, models, and source codes for Tg prediction.
 
@@ -34,26 +34,20 @@ Graph construction pipeline for PyTorch Geometric
 
 
 ### [Chem-KD_Tg/trainer](./Chem-KD_Tg/trainer)
-
 Model training scripts including:
-
 Teacher model training
 Chem-KD distillation model training
 Baseline model training
 
-### Chem-KD_Tg/predictor
-
+### [Chem-KD_Tg/predictor](./Chem-KD_Tg/predictor)
 Prediction scripts based on pre-extracted graph features.
-
 Functions:
-
 Load trained optimal model weights
 Predict Tg or DC properties from input p-SMILES-derived graph features
 Export prediction results
 
 
 ## Chem-KD_DC(+freq)
-
 Chem-KD_DC(+freq) has the same folder structure as Chem-KD_Tg.
 
 Additional functionality:
