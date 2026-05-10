@@ -66,10 +66,10 @@ This folder contains:
 ## Usage
 Users can directly use the feature_extractor and predictor modules in Chem-KD_XX to perform Tg or DC prediction on custom p-SMILES structures.
 Typical workflow:
- - 1 Convert p-SMILES into graph features using feature_extractor
- - 2 Load the optimal pretrained model
- - 3 Run prediction using predictor
- - 4 Obtain Tg or DC prediction results
+ - 1. Convert p-SMILES into graph features using feature_extractor
+ - 2. Load the optimal pretrained model
+ - 3. Run prediction using predictor
+ - 4. Obtain Tg or DC prediction results
 
 
 ## Hard Requirements
