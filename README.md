@@ -1,8 +1,10 @@
 # Chem-KD: Multi-View Knowledge Distillation Framework for Data-Scarce Chemical Learning
-## Overview
 
+
+## Overview
 Chem-KD is a multi-view knowledge distillation framework designed for molecular property prediction under data-scarce conditions.
 The framework integrates graph neural networks, soft-label distillation, and multi-teacher learning strategies to improve prediction performance for polymer-related properties such as glass transition temperature (Tg) and dielectric constant (DC).
+
 
 ## Repository Structure
 ### [Chem-KD_Tg](./Chem-KD_Tg)
@@ -27,6 +29,7 @@ Generated soft-label data used for knowledge distillation training.
 
 #### [Chem-KD_Tg/feature_extractor](./Chem-KD_Tg/feature_extractor)
 Code for converting p-SMILES into graph-based molecular features.
+
 Includes:
 Feature extraction with labels
 Feature extraction without labels
@@ -34,6 +37,7 @@ Graph construction pipeline for PyTorch Geometric
 
 
 #### [Chem-KD_Tg/trainer](./Chem-KD_Tg/trainer)
+
 Model training scripts including:
 Teacher model training
 Chem-KD distillation model training
@@ -41,6 +45,7 @@ Baseline model training
 
 #### [Chem-KD_Tg/predictor](./Chem-KD_Tg/predictor)
 Prediction scripts based on pre-extracted graph features.
+
 Functions:
 Load trained optimal model weights
 Predict Tg or DC properties from input p-SMILES-derived graph features
@@ -51,13 +56,12 @@ Export prediction results
 Chem-KD_DC(+freq) has the same folder structure as Chem-KD_Tg.
 
 Additional functionality:
-
 Introduces a new global feature freq
 Used to represent dielectric constant measurement frequency
 Designed for dielectric constant (DC) prediction tasks
 
 
-### [1](./prediction of literature data and experimental data)
+### [prediction of literature data and experimental data](./prediction of literature data and experimental data)
 
 This folder contains:
 
@@ -74,7 +78,7 @@ Typical workflow:
 4. Obtain Tg or DC prediction results
 
 
-# Hard Requirements
+## Hard Requirements
 
 These packages must be available to use Chem-KD:
 
