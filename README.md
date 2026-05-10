@@ -5,7 +5,7 @@ Chem-KD is a multi-view knowledge distillation framework designed for molecular 
 The framework integrates graph neural networks, soft-label distillation, and multi-teacher learning strategies to improve prediction performance for polymer-related properties such as glass transition temperature (Tg) and dielectric constant (DC).
 
 ## Repository Structure
-[Chem-KD_Tg](./Chem-KD_Tg)
+[`Chem-KD_Tg`](./Chem-KD_Tg)
 
 Main project folder containing all datasets, models, and source codes for Tg prediction.
 
