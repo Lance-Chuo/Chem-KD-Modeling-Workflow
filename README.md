@@ -15,7 +15,7 @@ prediction of literature data and experimental data：实验合成结构的p-SMI
 
 Hard requirements
 These packages must be available to use Chem-KD:
-"""python
+```python
 python=3.9.23=h716150d_0
 deepchem=2.8.0=pypi_0
 rdkit=2024.3.5=pypi_0
@@ -32,4 +32,4 @@ scipy=1.13.1=pypi_0
 matplotlib=3.9.4=pypi_0
 joblib=1.5.2=pypi_0
 tqdm=4.67.1=pypi_0
-"""
+```
