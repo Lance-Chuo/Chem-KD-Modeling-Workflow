@@ -25,7 +25,7 @@ Saved trained model parameters and optimal checkpoints.
 Generated soft-label data used for knowledge distillation training.
   
 
-### [Chem-KD_Tg/feature_extractor](./Chem-KD_Tg/feature_extractor)
+#### [Chem-KD_Tg/feature_extractor](./Chem-KD_Tg/feature_extractor)
 Code for converting p-SMILES into graph-based molecular features.
 Includes:
 Feature extraction with labels
@@ -33,13 +33,13 @@ Feature extraction without labels
 Graph construction pipeline for PyTorch Geometric
 
 
-### [Chem-KD_Tg/trainer](./Chem-KD_Tg/trainer)
+#### [Chem-KD_Tg/trainer](./Chem-KD_Tg/trainer)
 Model training scripts including:
 Teacher model training
 Chem-KD distillation model training
 Baseline model training
 
-### [Chem-KD_Tg/predictor](./Chem-KD_Tg/predictor)
+#### [Chem-KD_Tg/predictor](./Chem-KD_Tg/predictor)
 Prediction scripts based on pre-extracted graph features.
 Functions:
 Load trained optimal model weights
