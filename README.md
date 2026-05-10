@@ -10,39 +10,32 @@ The framework integrates graph neural networks, soft-label distillation, and mul
 Main project folder containing all datasets, models, and source codes for Tg prediction.
 
 ### [Chem-KD_Tg/database](./Chem-KD_Tg/database)
-
 Contains all data resources used in the project:
 
 #### [data-set](./Chem-KD_Tg/database/data-set)
-
 Original datasets used for model training and evaluation.
   
 #### [graph-feature](./Chem-KD_Tg/database/graph-feature)
-
 Extracted graph feature data converted from p-SMILES structures.
-  
-#### [model](./Chem-KD_Tg/database/model)
 
+#### [model](./Chem-KD_Tg/database/model)
 Saved trained model parameters and optimal checkpoints.
   
 #### [soft-label](./Chem-KD_Tg/database/soft-label)
 Generated soft-label data used for knowledge distillation training.
   
 
-  
-Chem-KD_Tg/feature_extractor
-
+### [Chem-KD_Tg/feature_extractor](./Chem-KD_Tg/feature_extractor)
 Code for converting p-SMILES into graph-based molecular features.
-
 Includes:
-
 Feature extraction with labels
 Feature extraction without labels
 Graph construction pipeline for PyTorch Geometric
-Chem-KD_Tg/trainer
+
+
+### [Chem-KD_Tg/trainer](./Chem-KD_Tg/trainer)
 
 Model training scripts including:
-
 Teacher model training
 Chem-KD distillation model training
 Baseline model training
