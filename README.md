@@ -5,22 +5,22 @@ Chem-KD is a multi-view knowledge distillation framework designed for molecular 
 The framework integrates graph neural networks, soft-label distillation, and multi-teacher learning strategies to improve prediction performance for polymer-related properties such as glass transition temperature (Tg) and dielectric constant (DC).
 
 ## Repository Structure
-`Chem-KD_Tg`(./Chem-KD_Tg)
+[`Chem-KD_Tg`](./Chem-KD_Tg)
 
 Main project folder containing all datasets, models, and source codes for Tg prediction.
 
-Chem-KD_Tg/database
-
+[Chem-KD_Tg/database](./Chem-KD_Tg/database)
 Contains all data resources used in the project:
+[data-set](./Chem-KD_Tg/database/data-set)
+  Original datasets used for model training and evaluation.
+[graph-feature](./Chem-KD_Tg/database/graph-feature)
+  Extracted graph feature data converted from p-SMILES structures.
+[model](./Chem-KD_Tg/database/model)
+  Saved trained model parameters and optimal checkpoints.
+[soft-label](./Chem-KD_Tg/database/soft-label)
+  Generated soft-label data used for knowledge distillation training.
 
-data-set
-Original datasets used for model training and evaluation.
-graph-feature
-Extracted graph feature data converted from p-SMILES structures.
-model
-Saved trained model parameters and optimal checkpoints.
-soft-label
-Generated soft-label data used for knowledge distillation training.
+  
 Chem-KD_Tg/feature_extractor
 
 Code for converting p-SMILES into graph-based molecular features.
