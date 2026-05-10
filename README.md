@@ -7,7 +7,7 @@ The framework integrates graph neural networks, soft-label distillation, and mul
 
 
 ## Repository Structure
-### [Chem-KD_Tg](./Chem-KD_Tg)
+### `Chem-KD_Tg`
 
 Main project folder containing all datasets, models, and source codes for Tg prediction.
 
@@ -52,7 +52,7 @@ Predict Tg or DC properties from input p-SMILES-derived graph features
 Export prediction results
 
 
-### [Chem-KD_DC(+freq)](./Chem-KD_DC(+freq))
+### `Chem-KD_DC(+freq)`
 Chem-KD_DC(+freq) has the same folder structure as Chem-KD_Tg.
 
 Additional functionality:
@@ -61,7 +61,7 @@ Used to represent dielectric constant measurement frequency
 Designed for dielectric constant (DC) prediction tasks
 
 
-### [prediction of literature data and experimental data](./prediction of literature data and experimental data)
+### `prediction of literature data and experimental data`
 
 This folder contains:
 
