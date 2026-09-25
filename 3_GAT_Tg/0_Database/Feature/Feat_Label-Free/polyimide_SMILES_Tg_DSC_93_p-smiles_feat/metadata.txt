@@ -1,0 +1,4 @@
+max_atoms=188
+use_edge_features=True
+use_global_features=True
+num_samples=93
